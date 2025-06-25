@@ -6,13 +6,14 @@
 
 ## 🚀 Tính năng chính
 
-- ✅ Đăng nhập và phân quyền người dùng (Admin / Thu ngân)
-- ✅ Quản lý người dùng: thêm, sửa, xóa
-- ✅ Quản lý danh mục và sản phẩm
-- ✅ Tạo đơn hàng, lập hóa đơn
-- ✅ Xem báo cáo doanh thu
-- ✅ Lưu trữ dữ liệu cục bộ bằng Room
-- ✅ Giao diện hiện đại, dễ sử dụng
+- Đăng nhập và phân quyền người dùng (Admin / Thu ngân)
+- Quản lý người dùng: thêm, sửa, xóa
+- Quản lý danh mục và sản phẩm
+- Tạo đơn hàng sử dụng camera trên điện thoại để quét mã vạch trên mỗi sản phẩm thêm vào đơn hàng
+- In hóa đơn qua thiết bị in kết nối qua bluetooth
+- Xem báo cáo doanh thu
+- Lưu trữ dữ liệu cục bộ bằng Room
+- Giao diện hiện đại, dễ sử dụng
 
 ---
 
