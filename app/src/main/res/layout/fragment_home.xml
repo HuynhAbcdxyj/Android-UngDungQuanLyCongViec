@@ -1,0 +1,95 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".home.HomeFragment">
+
+    <!-- Layout chính -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- Menu ngang với HorizontalScrollView -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal"
+            android:background="#C3C7F4"
+            android:gravity="start">
+
+            <!-- HorizontalScrollView cho các nút công việc -->
+            <HorizontalScrollView
+                android:id="@+id/horizontalMenu"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:id="@+id/menuContainer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <!-- Nút Mục Khác cố định bên phải -->
+            <ImageButton
+                android:id="@+id/btnMucKhac"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:background="@null"
+                android:layout_marginEnd="8dp"
+                android:contentDescription="Filter"
+                android:src="@drawable/baseline_post_add_24" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/fast_note"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:textSize="16dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/text_color"
+            android:layout_marginBottom="-13dp"/>
+        <TextView
+            android:id="@+id/ghi_chu_nhanh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/note"
+            android:textSize="16sp"
+            android:background="@drawable/edittext_rounded"
+            android:padding="10dp"
+            android:maxHeight="100dp"
+            android:minHeight="30dp"
+            android:layout_margin="13dp"
+            android:textColor="@color/text_color"
+            android:gravity="center" />
+        <!-- Danh sách công việc -->
+        <ListView
+            android:id="@+id/taskListView"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/rounded_button_background" />
+    </LinearLayout>
+
+    <!-- Nút Add ở góc phải dưới màn hình -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btnAddHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="#C8A8E9"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="Add Home"
+        android:src="@drawable/ic_add" />
+</FrameLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission
+        android:name="android.permission.SCHEDULE_EXACT_ALARM"
+        tools:ignore="ProtectedPermissions" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppQuanLyCaNhan"
+        tools:targetApi="31">
+        <activity
+            android:name=".SuccessTree.SuccessTree"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen.SplashScreen"
+            android:exported="true"> <!-- Đặt exported thành true -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PhanLoaiCv.PhanLoaiCv"
+            android:exported="false" />
+        <activity
+            android:name=".tasks.AddTaskBottomSheet"
+            android:exported="false" />
+        <activity
+            android:name=".home.addHome"
+            android:exported="false"
+            android:label="" />
+        <activity
+            android:name=".DangNhap.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity.MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DangNhap.LoginActivity"
+            android:exported="true" />
+        <activity android:name=".setting.AboutAppActivity" />
+        <activity android:name=".setting.TermsConditionsActivity" />
+        <activity android:name=".setting.PrivacyPolicyActivity" />
+
+        <receiver android:name=".ThongBao.ReminderReceiver" />
+        <receiver android:name=".ThongBao.ReminderReceiver_Nv" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

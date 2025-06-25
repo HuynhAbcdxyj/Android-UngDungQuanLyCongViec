@@ -1,0 +1,86 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="folder">Thư mục</string>
+    <string name="start_composing">Bắt đầu soạn </string>
+    <string name="title">Tiêu đề</string>
+    <string name="sign_out">Đăng xuất</string>
+    <string name="change_password">Đổi mật khẩu</string>
+    <string name="change_notes_quickly">Thay đổi ghi chú nhanh</string>
+    <string name="fast_note">Ghi chú nhanh</string>
+    <string name="note">- Hãy làm hôm nay những gì người khác không làm, để ngày mai đạt được những điều người khác không thể -</string>
+    <string name="mission_overview">Tổng quan về nhiệm vụ</string>
+    <string name="your_title">Danh hiệu của bạn</string>
+    <string name="incomplete">Chưa hoàn thành</string>
+    <string name="complete">Hoàn thành</string>
+    <string name="task_chart">Biểu đồ nhiệm vụ</string>
+    <string name="done_task">Nhiệm vụ hoàn thành</string>
+    <string name="not_done_task">Nhiệm vụ chưa hoàn thành</string>
+    <string name="job_title">Tiêu đề công việc</string>
+    <string name="creation_date">Ngày tạo</string>
+
+    <!-- Đăng kí -->
+    <string name="register_title">Đăng ký</string>
+    <string name="confirm_password_hint">Xác nhận mật khẩu</string>
+
+    <!-- Đăng nhập -->
+    <string name="login_title">Đăng nhập</string>
+    <string name="username_hint">Tên đăng nhập</string>
+    <string name="password_hint">Mật khẩu</string>
+    <string name="login_button">ĐĂNG NHẬP</string>
+    <string name="not_registered">Chưa có tài khoản?</string>
+    <string name="register_button">Đăng ký</string>
+
+    <!-- Thông tin cá nhân -->
+    <string name="app_name">Hồ sơ</string>
+    <string name="profile_picture_description">Ảnh đại diện</string>
+    <string name="profile_name">OLIVIA WILSON</string> <!-- Giữ nguyên tên nếu không cần dịch -->
+    <string name="profile_job">NHIẾP ẢNH GIA</string>
+    <string name="overview_tasks">Tổng quan về nhiệm vụ</string>
+    <string name="completed_tasks">Nhiệm vụ đã hoàn thành</string>
+    <string name="incomplete_tasks">Nhiệm vụ chưa hoàn thành</string>
+    <string name="daily_task_completion">Hoàn thành nhiệm vụ hàng ngày</string>
+    <string name="chart_description">Biểu đồ hoàn thành nhiệm vụ</string>
+    <string name="tasks_next_7_days">Nhiệm vụ trong 7 ngày tới</string>
+    <string name="no_tasks">Không có nhiệm vụ</string>
+    <string name="incomplete_task_categories">Phân loại nhiệm vụ chưa hoàn thành</string>
+    <string name="chart_incomplete_tasks_description">Biểu đồ phân loại nhiệm vụ</string>
+
+    <!-- Cài đặt -->
+    <string name="language">Ngôn ngữ</string>
+    <string name="about_app">Thông tin ứng dụng</string>
+    <string name="terms_conditions">Điều khoản &amp; Điều kiện</string>
+    <string name="privacy_policy">Chính sách bảo mật</string>
+    <string name="share_app">Chia sẻ ứng dụng</string>
+    <string name="backup_sync">Sao lưu &amp; Đồng bộ hóa</string>
+    <string name="clear_data">Xóa dữ liệu</string>
+    <string name="app_setting">Cài đặt ứng dụng</string>
+    <string name="general_settings">Cài đặt chung</string>
+    <string name="mode">Chế độ</string>
+    <string name="dark_light">Tối &amp; Sáng</string>
+    <string name="notifications">Thông báo</string>
+    <string name="info">Thông tin</string>
+    <string name="app_info">Thông tin ứng dụng</string>
+
+    <string name="terms_conditions_app">Điều khoản &amp; Điều kiện</string>
+    <string name="privacy_policy_app">Chính sách bảo mật</string>
+
+    <string-array name="professions">
+        <item>Bác sĩ</item>
+        <item>Nhiếp ảnh gia</item>
+        <item>Học sinh</item>
+        <item>Nông dân</item>
+        <item>Giáo viên</item>
+        <item>Kỹ sư</item>
+        <item>Lập trình viên</item>
+        <item>Nhà văn</item>
+        <item>Ca sĩ</item>
+        <item>Y tá</item>
+        <item>Lập trình viên</item>
+        <item>Xe ôm</item>
+    </string-array>
+
+    <string name="achievements" tools:ignore="MissingTranslation">Danh hiệu</string>
+    <string name="task_master" tools:ignore="MissingTranslation">Master of Tasks</string>
+    <string name="first_completion" tools:ignore="MissingTranslation">Hoàn thành đầu tiên</string>
+    <string name="daily_hero" tools:ignore="MissingTranslation">Anh hùng mỗi ngày</string>
+</resources>

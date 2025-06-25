@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/chuyenTiep"
+        android:icon="@drawable/ic_forward_24"
+        android:title="Hoàn tác"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/NhacNho"
+        android:icon="@drawable/baseline_alarm_on_24"
+        android:title="Làm lại"
+        app:showAsAction="ifRoom" />
+<item
+    android:title="luu"
+    android:id="@+id/luu"
+    app:showAsAction="ifRoom"
+    android:icon="@drawable/baseline_check_24"
+    />
+</menu>

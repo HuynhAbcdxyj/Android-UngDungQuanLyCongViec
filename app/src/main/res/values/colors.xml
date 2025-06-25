@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#6200EE</color> <!-- Thay đổi mã màu theo ý muốn -->
+    <color name="custom_yellow">#FFC107</color> <!-- Màu vàng tùy chỉnh -->
+    <color name="light_gray">#D3D3D3</color> <!-- Màu xám nhạt -->
+
+    <!-- Màu nhấn của ứng dụng -->
+    <color name="colorAccent">#03DAC5</color> <!-- Thay đổi mã màu theo ý muốn -->
+    <color name="primary">#6200EE</color>
+    <color name="primary_variant">#3700B3</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="background">#FFFFFF</color> <!-- Nền sáng -->
+    <color name="on_background">#000000</color> <!-- Màu chữ trên nền sáng -->
+    <color name="secondary">#03DAC6</color>
+    <color name="background_dark">#121212</color> <!-- Nền tối -->
+    <color name="on_background_dark">#FFFFFF</color> <!-- Màu chữ trắng trên nền tối -->
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorPrimaryVariant">#3700B3</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+
+    <!-- Màu sắc cho chế độ sáng -->
+    <color name="background_color">#C3C7F4</color>
+    <color name="text_color">#000000</color>
+    <color name="item_background">#F2DDDC</color>
+    <color name="item_khac">#E3AADD</color>
+    <color name="item_nvu">#F6BCBA</color>
+    <color name="item">#CBABE9</color>
+    <color name="background_khac">#F2DDDC</color>
+</resources>

@@ -1,0 +1,5 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/white" />
+    <corners android:radius="75dp" /> <!-- Đảm bảo bán kính lớn hơn hoặc bằng một nửa kích thước -->
+    <stroke android:width="2dp" android:color="#888383" />
+</shape>

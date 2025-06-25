@@ -1,0 +1,57 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/background_form"
+    android:padding="16dp">
+
+    <!-- Text Input -->
+    <EditText
+        android:id="@+id/edtNhiemVu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Chạm 'Enter' để tạo nhiệm vụ"
+        android:background="@android:color/transparent"
+        android:padding="8dp"
+        android:inputType="text"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <!-- Action Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end"
+        android:paddingTop="8dp"
+        tools:ignore="ExtraText">
+
+        <!-- Đặt Nhắc Nhở -->
+        <Button
+            android:id="@+id/btnNhacNho"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đặt nhắc nhở"
+            android:drawableLeft="@drawable/baseline_alarm_on_24"
+            android:padding="8dp"
+            android:textColor="@android:color/black"
+            android:backgroundTint="@color/light_gray" />
+
+        <!-- Hoàn Tất -->
+        <Button
+            android:id="@+id/btnHoanTat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="Hoàn tất"
+            android:padding="8dp"
+            android:textColor="@android:color/holo_orange_light"
+            android:background="@android:color/transparent"
+             android:elevation="0dp"
+        />
+
+    </LinearLayout>
+
+</LinearLayout>

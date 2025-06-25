@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_color">#121212</color> <!-- Nền tối -->
+    <color name="text_color">#FFFFFF</color> <!-- Màu chữ trắng trên nền tối -->
+    <color name="item_background">#1E1E1E</color> <!-- Nền item tối -->
+    <color name="background">#121212</color>
+
+</resources>

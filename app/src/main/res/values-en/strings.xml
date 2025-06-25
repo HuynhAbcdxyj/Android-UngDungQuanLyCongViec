@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="professions">
+        <item>Doctor</item>
+        <item>Photographer</item>
+        <item>Students</item>
+        <item>Farmers</item>
+        <item>Teacher</item>
+        <item>Engineer</item>
+        <item>Programmer</item>
+        <item>Writer</item>
+        <item>Singer</item>
+        <item>Nurse</item>
+        <item>Programmer</item>
+        <item>Motorbike taxi</item>
+    </string-array>
+
+    <string name="folder">Folder</string>
+    <string name="start_composing">Start Composing</string>
+    <string name="title">Title</string>
+    <string name="sign_out">Sign out</string>
+    <string name="change_password">Change Password</string>
+    <string name="change_notes_quickly">Change notes quickly</string>
+    <string name="fast_note">Take quick notes</string>
+    <string name="note">- Do today what others cannot do, so that tomorrow you can achieve what others cannot -</string>
+    <string name="mission_overview">Mission Overview</string>
+    <string name="your_title">Your title</string>
+    <string name="incomplete">Incomplete</string>
+    <string name="complete">Complete</string>
+    <string name="task_chart">Task Chart</string>
+    <string name="done_task">Task completed</string>
+    <string name="not_done_task">Task not completed</string>
+    <string name="job_title">Job title</string>
+    <string name="creation_date">Creation Date</string>
+
+    <!--Register -->
+    <string name="register_title">Register</string>
+    <string name="confirm_password_hint">Confirm Password</string>
+
+    <!-- Login -->
+    <string name="login_title">Login</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button">LOGIN</string>
+    <string name="not_registered">Not yet registered?</string>
+    <string name="register_button">Register</string>
+
+
+    <!-- Profile -->
+    <string name="app_name">Profile</string>
+    <string name="profile_picture_description">Profile Picture</string>
+    <string name="profile_name">OLIVIA WILSON</string>
+    <string name="profile_job">PHOTOGRAPHER</string>
+    <string name="overview_tasks">Overview of Tasks</string>
+    <string name="completed_tasks">Tasks Completed</string>
+    <string name="incomplete_tasks">Tasks Incomplete</string>
+    <string name="daily_task_completion">Daily Task Completion</string>
+    <string name="chart_description">Task Completion Chart</string>
+    <string name="tasks_next_7_days">Tasks for the Next 7 Days</string>
+    <string name="no_tasks">No tasks available</string>
+    <string name="incomplete_task_categories">Categories of Incomplete Tasks</string>
+    <string name="chart_incomplete_tasks_description">Chart of Incomplete Tasks</string>
+
+
+    <!--SETTING -->
+    <string name="app_setting">SETTING</string>
+    <string name="general_settings">General Settings</string>
+    <string name="mode">Mode</string>
+    <string name="dark_light">Dark &amp; Light</string>
+    <string name="language">Language</string>
+    <string name="notifications">Notifications</string>
+    <string name="backup_sync">Backup &amp; Sync</string>
+    <string name="clear_data">Clear Data</string>
+    <string name="info">Information</string>
+    <string name="app_info">App Information</string>
+    <string name="terms_conditions">Terms &amp; Conditions</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="share_app">Share App</string>
+
+    <string name="about_app"> <font size="24"> App Information: </font>
+                \nThe Personal Task Management App was developed by students of Dong A University of Technology. This app helps users manage their personal tasks effectively and conveniently. With a simple, user-friendly interface, the app allows users to plan, track task progress, take notes, and set reminders for important tasks.
+                \n \nMain Features: \n - Task Management: Add, edit, delete tasks and categorize them by priority.
+                \n \n - Smart Reminders: Set notification reminders for important tasks.
+                \n \n - User-Friendly Interface: A simple, intuitive interface that makes it easy for users to get started and use the app.
+                \n \n - Dark mode, language switching, etc.
+                \n \n - The app will continue to improve and be updated with new features to enhance the user experience.
+    \n \nInstructions for use:
+    \n \n - Add large projects and when you want to create small projects in it, select the large project and in the large project click add small tasks in it
+    \n \n - When completing a project, click the tick on that project.
+    \n \n - When you want to change the password, enter the old password of the account and enter the new password to change.
+    \n \n - If you want to change your career, click on your current career and it will bring up careers for you to choose from.</string>
+    <string name="terms_conditions_app"> <font size ="24">Terms and Conditions of Use </font>
+
+                \n Welcome to the Personal Task Management App! By using our application, you agree to the terms and conditions outlined below. If you do not agree with these terms, please do not use the application.
+
+                \n\n 1. Acceptance of Terms
+                \n- By downloading and using the application, you agree to these terms and conditions.
+
+                \n\n 2. User Rights and Responsibilities
+                \n- Users have the right to use the application for personal purposes.
+                \n- You are not allowed to copy, redistribute, or modify any part of the application without our consent.
+
+                \n\n 3. Privacy Policy
+                \n- We respect your privacy and are committed to protecting your personal information in accordance with our Privacy Policy.
+
+                \n\n 4. Intellectual Property Rights
+                \n- All intellectual property rights related to this application belong to the Team.
+
+                \n\n 5. Limitation of Liability
+                \n- This application is provided "as is," and we are not responsible for any issues related to the use of the application.
+
+                \n\n 6. Termination of Use
+                \n- We have the right to suspend your use of the application if you violate these terms.
+
+                \n\n 7. Updates to Terms
+                \n- We reserve the right to change these terms at any time and will notify you within the application.
+
+                \n\n 8. Governing Law
+                \n- These terms are governed by the laws of Vietnam.
+
+                \n\n 9. Contact
+                \n- If you have any questions, please contact us at Nhom@gmail.com.vn.</string>
+
+    <string name="privacy_policy_app"> <font size="24">Privacy Policy</font>
+
+                \n\n 1. Introduction
+                \nWelcome to our Personal Task Management App. We are committed to protecting your privacy and ensuring that your personal information is handled in a safe and responsible manner.
+
+                \n\n 2. Information We Collect
+                \nWe may collect personal information such as your name, email address, phone number, and any other data you provide when you register for the application. We may also collect non-personal information, such as device type, operating system, and browsing data.
+
+                \n\n 3. How We Use Your Information
+                \nWe use your information to improve your experience, provide you with services, and send relevant notifications. We may also use your data for analytical purposes or to send promotional materials.
+
+                \n\n 4. How We Protect Your Information
+                \nWe take your privacy seriously and implement a variety of security measures to protect your personal information. This includes encryption and secure storage practices to prevent unauthorized access.
+
+                \n\n 5. Sharing Your Information
+                \nWe do not sell or rent your personal information to third parties. However, we may share your information with trusted service providers, business partners, or legal authorities when necessary.
+
+                \n\n 6. Your Rights
+                \nYou have the right to access, update, and delete your personal information. You may also opt out of receiving marketing communications.
+
+                \n\n 7. Cookies and Tracking Technologies
+                \nWe use cookies and similar technologies to improve your experience on our app. Cookies help us understand how you use our app and allow us to customize your experience.
+
+                \n\n 8. Children’s Privacy
+                \nOur app is not intended for children under the age of 13. We do not knowingly collect personal information from children.
+
+                \n\n 9. Third-Party Links
+                \nOur app may contain links to third-party websites. We are not responsible for the privacy practices of these external sites and encourage you to review their privacy policies.
+
+                \n\n 10. Changes to This Policy
+                \nWe reserve the right to modify this Privacy Policy at any time. Any changes will be communicated through the app, and the updated policy will be reflected on this page.
+
+                \n\n 11. Contact Us
+                \nIf you have any questions or concerns regarding our Privacy Policy, please contact us at Nhom@gmail.com.vn.</string>
+</resources>

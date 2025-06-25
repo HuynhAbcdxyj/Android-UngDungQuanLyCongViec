@@ -1,0 +1,61 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_color"
+    android:padding="16dp">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+    </androidx.appcompat.widget.Toolbar>
+
+    <!-- Tiêu đề công việc -->
+    <EditText
+        android:id="@+id/etTaskTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/title"
+        android:textSize="25dp"
+        android:padding="8dp"
+        android:background="@color/background_color" />
+    <TextView
+        android:id="@+id/NgayGio"
+        android:layout_width="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/background_color"
+        >
+    </TextView>
+    <TextView
+        android:id="@+id/thoiGianNhacNho"
+        android:layout_width="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/background_color"
+        android:textColor="@color/text_color"
+        >
+    </TextView>
+
+    <!-- Nội dung công việc -->
+    <EditText
+
+        android:id="@+id/etTaskDescription"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="8dp"
+        android:background="@color/background_color"
+        android:gravity="top"
+        android:hint="@string/start_composing"
+        android:minHeight="150dp"
+        android:padding="8dp"
+        android:scrollbars="vertical" />
+
+    <!-- Nút lưu -->
+</LinearLayout>
