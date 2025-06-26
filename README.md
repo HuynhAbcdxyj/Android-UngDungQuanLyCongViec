@@ -1,60 +1,60 @@
-# 📱 Ứng dụng Bán Hàng – Android
+# ✅ Ứng dụng Quản Lý Công Việc Cá Nhân
 
-Ứng dụng bán hàng dành cho Android, hỗ trợ quản lý người dùng, sản phẩm, đơn hàng và tạo hóa đơn nhanh chóng, thân thiện với người dùng. Hoạt động hoàn toàn offline.
+Ứng dụng Android giúp người dùng **quản lý mục tiêu cá nhân**, chia nhỏ thành các nhiệm vụ cụ thể, theo dõi tiến độ và nhắc nhở đúng thời điểm.
+
+---
+
+## 🧠 Mục tiêu của ứng dụng
+
+Giúp người dùng xây dựng thói quen làm việc hiệu quả hơn bằng cách:
+- Lập kế hoạch mục tiêu rõ ràng
+- Chia nhỏ thành các nhiệm vụ
+- Theo dõi và cập nhật tiến độ
+- Nhắc nhở đúng thời gian để không bỏ lỡ
 
 ---
 
 ## 🚀 Tính năng chính
 
-- Đăng nhập và phân quyền người dùng (Admin / Thu ngân)
-- Quản lý người dùng: thêm, sửa, xóa
-- Quản lý danh mục và sản phẩm
-- Tạo đơn hàng sử dụng camera trên điện thoại để quét mã vạch trên mỗi sản phẩm thêm vào đơn hàng
-- In hóa đơn qua thiết bị in kết nối qua bluetooth
-- Xem báo cáo doanh thu
-- Lưu trữ dữ liệu cục bộ bằng Room
-- Giao diện hiện đại, dễ sử dụng
+- 🎯 **Tạo và quản lý mục tiêu cá nhân**  
+  Ví dụ: Học tiếng Anh, Rèn luyện sức khỏe, Đọc sách,...
+
+- 🗂️ **Tạo và quản lý các nhiệm vụ cụ thể**  
+  Ví dụ: Học tiếng Anh → Buổi 1, Buổi 2, Buổi 3,...
+
+- ⏰ **Đặt thông báo nhắc nhở theo từng buổi**  
+  Ví dụ: 7:00 sáng → “Học tiếng Anh – Buổi 1”
+
+- 📈 **Tự động cập nhật tiến độ của mục tiêu**  
+  Khi bạn đánh dấu một nhiệm vụ hoàn thành, tiến độ tổng thể của mục tiêu sẽ được cập nhật theo phần trăm.
 
 ---
 
-## 🏗️ Kiến trúc phần mềm
-
-Ứng dụng tuân theo mô hình **Clean Architecture**, kết hợp với kiến trúc **MVVM (Model - View - ViewModel)** giúp code rõ ràng, dễ bảo trì và mở rộng.
-
-### 📁 Cấu trúc thư mục
-
-```plaintext
-presentation/
-│
-├── View (Fragment, Activity) #Giao diện
-├── ViewModel #Xử lý tương tác UI
-│
-domain/
-│
-├── model/ # Định nghĩa các entity
-├── repository/ (interface) #Interface kết nối với data layer
-├── use_case/ #xử lý logic chính
-│
-data/
-├── locale/ (Room DAO, Database)
-├── repository/ (implementation)
-
-📦 di/                   → Cấu hình Hilt DI
-📦 utils/                → Hằng số và hàm tiện ích
-📄 MyApplication.kt      → Application class
-
-```
 ## 🧰 Công nghệ sử dụng
 
-- 🏠 **Room** – Quản lý cơ sở dữ liệu cục bộ
-- 💉 **Hilt** – Dependency Injection
-- 🔁 **Kotlin Coroutines** – Xử lý bất đồng bộ
-- 👓 **Jetpack ViewModel + LiveData** – Quản lý vòng đời và dữ liệu UI
+- 🔤 **Ngôn ngữ:** Kotlin, XML  
+- 🏗️ **Kiến trúc:** MVVM  
+- 🗄️ **Lưu trữ:** SQLite (Room)  
+- 🔔 **Thông báo:** Notification Manager  
+- 🛠️ **IDE:** Android Studio
 
 ---
+
+## 📦 Cấu trúc thư mục
+
+```plaintext
+📁 DangNhap/                 → Đăng nhập & đăng ký
+📁 DatabaseHelper/           → Lớp hỗ trợ thao tác SQLite
+📁 home/                     → Màn hình chính
+📁 tasks/                    → Danh sách nhiệm vụ
+📁 setting/                  → Cài đặt ứng dụng
+📁 profile/                  → Thông tin người dùng
+📁 ThongBao/                 → Quản lý thông báo
+📄 MainActivity.kt           → Màn hình điều hướng chính
+```
 ## 📌 Ghi chú
-Ứng dụng hoạt động hoàn toàn offline
+Ứng dụng chạy hoàn toàn offline
 
-Thiết kế tách biệt UI – Logic – Data
+Dễ dàng mở rộng với đồng bộ đám mây hoặc tài khoản người dùng
 
-Sẵn sàng tích hợp API hoặc đồng bộ dữ liệu trong tương lai
+Giao diện tối giản, dễ sử dụng
