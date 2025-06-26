@@ -33,8 +33,8 @@ Giúp người dùng xây dựng thói quen làm việc hiệu quả hơn bằng
 ## 🧰 Công nghệ sử dụng
 
 - 🔤 **Ngôn ngữ:** Kotlin, XML  
-- 🏗️ **Kiến trúc:** MVVM  
-- 🗄️ **Lưu trữ:** SQLite (Room)  
+- 🏗️ **Kiến trúc:** MVC  
+- 🗄️ **Lưu trữ:** SQLite
 - 🔔 **Thông báo:** Notification Manager  
 - 🛠️ **IDE:** Android Studio
 
